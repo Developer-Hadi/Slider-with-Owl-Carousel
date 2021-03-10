@@ -37,6 +37,11 @@ header.header-area {
     color: #fff;
     font-weight: 600;
 }
+.menu ul li.active a,
+.menu ul li a:hover{
+    background: #ff7720;
+    border-radius: 0 5px 0 10px;
+}
 
 
 .slider-item {
@@ -71,6 +76,8 @@ header.header-area {
 
 .slider-content h4 {
     font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 a.slider-btn {
